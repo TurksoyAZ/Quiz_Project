@@ -5,6 +5,8 @@ import "./Game.css";
 function Game({ info, frage, onclickFunktion, data }) {
     const linie = Math.round((data / info.length) * 100);
 
+    //Hallo man
+
     return (
         <section className="mainContainer">
             <article className="articleContainer">
